@@ -9,5 +9,54 @@
 }
 
 body{
-    background-image: url();
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Kumbh Sans', sans-serif; 
+    background-color: hsl(185, 75%, 39%);
+}
+#image1{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white ;
+    height: 400px;
+    font-family: 'Kumbh Sans';
+    align-items: center;
+    border-radius: 25px;
+}
+.image-content{
+height: 90px;
+
+}
+#image2{
+    border: 5px solid white;
+    border-radius: 50px;
+   
+ 
+}
+.title{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.sep{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.idade{
+    padding-left: 20px;
+    height: 15px;
+}
+.text-1{
+    align-items: center;
+
 }
