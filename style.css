@@ -18,7 +18,7 @@ body {
     background-color: hsl(185, 75%, 39%);
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: right 50vw bottom 50vh, left  50vw top 50vh;
+    background-position: right 50vw bottom 50vh, left  50vw top 50vh
 }
 
 #image1 {
@@ -125,7 +125,7 @@ body {
 }
 
 .a2{
-    padding-left: 65px;
+    padding-left: 55px;
     margin-right: 70px;
 }
     
