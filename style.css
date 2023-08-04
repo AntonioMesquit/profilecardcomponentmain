@@ -2,82 +2,131 @@
 
 /*font-family: 'Kumbh Sans', sans-serif;*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
+body {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     font-family: 'Kumbh Sans', sans-serif; 
     background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left  50vw top 50vh;
 }
-#image1{
+
+#image1 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
-    background-color: white ;
-    height: 400px;
+    background-color: white;
+    height: 376px;
     font-family: 'Kumbh Sans';
     align-items: center;
     border-radius: 25px;
-    margin: auto    ;
+    margin: auto;
 }
-.image-content{
-height: 89px;
 
+.image-content {
+    height: 89px;
 }
-.text-content{
+
+.text-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#image2{
+
+#image2 {
     border: 5px solid white;
     border-radius: 50px;
     margin-bottom: 15px;
-    
-   
- 
 }
-.title{
+
+.title {
     display: flex;
     flex-direction: row;
-
-
 }
-.sep{
+
+.sep {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
 }
-.idade{
-    padding-left: 20px;
+
+.idade {
+    padding-left: 15px;
     height: 25px;
 }
-.text-1{
+
+.text-1 {
     font-family: 'Kumbh Sans';
     align-items: center;
-    font-size: 20px;
-    font-weight: 900px;
-
+    font-size: 18px;
+    font-weight: 900;
+    color: #323342;
 }
-.text-2{
-    font-size: 20px;
+
+.text-2 {
+    font-size: 18px;
     color: hsl(0, 0%, 59%);
 }
-.location{
-     margin-bottom: 30px;
-     color: hsl(0, 0%, 59%);
+
+.location {
+    margin-bottom: 30px;
+    color: hsl(0, 0%, 59%);
+    font-size: 0.9rem;
+}
+
+.context {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-top: 0.53px solid rgba(0, 0, 0, 0.185);
+    width: 350px;
+    
+
+.numbers {
+    display: flex;
+    padding-top: 20px;
+    font-family: 'Kumbh Sans';
+    font-weight: 700;
+    font-size: 0.7rem;
+    margin-bottom: 4px;
+    color: #323342;
+}
+
+.desc {
+    display: flex;
+    font-size: 0.7rem;
+    letter-spacing: 1.4px;
+    color: hsl(0, 0%, 59%);
+}
+
+.p1 {
+    margin-right: 70px;
+}
+
+.p3 {
+    margin-left: 70px;
+}
+
+.a2{
+    padding-left: 65px;
+    margin-right: 70px;
+}
     
 }
